@@ -4,6 +4,7 @@
     
     <meta charset="UTF-8">
     <title>Tarcísio Menezes - Estudante de Desenvolvimento Web - Trybe </title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,67 +12,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap" rel="stylesheet"> 
     
-    <style>
-    
-    body { font-family: Lora, monospace; font-size: 16px; font-weight: 600; background-color: #74a8c8; color:#14213d;
-    text-align: justify; margin-right: 10%; margin-left: 10%;} 
-
-    .hero_title { font-family: Roboto Slab; font-size: 2em; font-weight: 800; text-align: center; color: #022b3a;}
-    
-    .circled {border-radius: 30%;}
-
-    div {text-align: center; font-size: 18px;}
-
-    h3 {color: #022b3a;}
-
-    .button { display:inline-block; background-color: #f1faee; color: #283d3b; border-radius: 10px;
-            margin: 10px; padding: 5px 10px; font-weight: bolder; text-decoration: none; color: inherit;}
-
-    </style>
-
-</head>
+    </head>
 
 <body>
 
  <!-- PARTE 1-->  
  
- <br>
+ <div class="hero_title">
 
-<h1 class="hero_title" > Tarcísio A. R. Menezes </h1>
+ <h1> Tarcísio A. R. Menezes </h1>
 
-<div>
+ <img id="foto_tarcisio" src="images/tarcisio_image.jpg" width="300px">
 
-    <a class="button" href="#data">Dados </a> 
-    <a class="button" href="#bio">Bio </a> 
-    <a class="button" href="#experiences">Habilidades </a>
+ <div class="menu">
 
-    <br> <br>
+    <a class="button" href="#bio">Bio </a>
+    <a class="button" href="#contact">Contato</a>
+    <a class="button" href="#soft_skills"> Soft Skills</a>
+    <a class="button" href="#hard_skills">Habilidades</a>
+    
+ </div>
 
-<img id="foto_tarcisio" class="circled" src= "images/tarcisio_image.jpg" width="125px"
-alt="Foto de Tarcísio Menezes em frente ao computador em um laboratório de pesquisa">
+ </div>
 
-<br> <br>
 
-<!-- PARTE 2-->
+<div class="bio">
 
-</div>
+    <h2 id="bio"> Bio </h2>
 
-<h3> Bio </h3>
-
-<p id="bio">
-    Me considero um entusiasta da tecnologia, principalmente computadores e programação, 
-    atualmente estudo desenvolvimento web pela Trybe. Também sou licenciado e <a href="https://bdtd.unifal-mg.edu.br:8443/bitstream/tede/1466/5/Disserta%C3%A7%C3%A3o%20de%20%20Tarc%C3%ADsio%20Ant%C3%B4nio%20dos%20Reis%20Menezes.pdf" target="_blanck" > mestre</a> em química
+<p>
+    Considero-me um entusiasta da tecnologia, principalmente computadores e programação, 
+    atualmente estudo desenvolvimento web pela Trybe. Também sou licenciado e <a class="link" href="https://bdtd.unifal-mg.edu.br:8443/bitstream/tede/1466/5/Disserta%C3%A7%C3%A3o%20de%20%20Tarc%C3%ADsio%20Ant%C3%B4nio%20dos%20Reis%20Menezes.pdf" target="_blanck" > mestre</a> em química
     pela Universidade Federal de Alfenas-MG, com experiência nas áreas de controle de qualidade 
     e educação. 
-    Na <a href=" #foto_tarcisio"> foto</a>, estou operando um aparelho de <i>differential scanning calorimetry</i>, no 
+    Na <a class="link" href=" #foto_tarcisio"> foto</a>, estou operando um aparelho de <i>differential scanning calorimetry</i>, no 
     laboratório de análise e caracterização de fármacos e formulações da UNIFAL-MG.
 </p>
 
+</div>
 
-<p id="experiences"> Minhas vivências em diversos grupos de pesquisa me propiciaram o desenvolvimento de algumas
+ <div class="soft_skills">
+
+ <p id="soft_skills"> Minhas vivências em diversos grupos de pesquisa me propiciaram o desenvolvimento de algumas
     habilidades como: </p>
 
-    <ul>
+    <ol>
 
      <li>Proatividade;</li> 
      <li> <strong>Pensamento crítico</strong>;</li>
@@ -79,45 +64,68 @@ alt="Foto de Tarcísio Menezes em frente ao computador em um laboratório de pes
      <li><strong>Senso de coletividade e trabalho em equipe</strong>;</li>
      <li>Comunicação;</li>
 
-    </ul> 
+    </ol> 
 
-    <!-- PARTE 3-->
-
+    
     <p>Sendo que me orgulho bastante em ter contribuido e aprendido com diversas pessoas de diferentes
     esferas da universidade. Juntos somos bem mais fortes, por isso tenho orgulho em fazer parte da
-    <a href= "https://www.betrybe.com/" target="_blanck"> Tribo!! </a> </p>
+    <a class="link" href= "https://www.betrybe.com/" target="_blanck"> Tribo!! </a> </p>
+
+</div>
+
+<div class="hard_skills">
+
+    <p id="hard_skills">
+        Atualmente estou me desenvolvendo nos seguintes tópicos:
+    </p>
+
+    <ul>
+
+        <li>HTML;</li> 
+        <li> CSS;</li>
+        <li>Java-Script;</li>
+        <li>React;</li>
+        <li>Python;</li>
+        <li>Git;</li>
+        <li>SQL;</li>
+        <li>Express.js;</li>
+        <li>ORM;</li>
+        <li>NoSQL;</li>
+        <li>Node;</li>
+        
+   
+       </ul> 
 
 
+</div>
 
-<h3>Dados pessoais:</h3>
 
-<ul id="data">
+<div class="contact">
+ 
+    <h3 id="contact"> Contato:</h3>
 
-    <li> <strong>Nacionalidade</strong>: Brasileira</li>
-    <li> <strong>Cidade natal</strong>: Cássia dos Coqueiros - SP</li>
-    <li><strong>Localização atual</strong>: Alfenas - MG</li>
-    <li><strong>E-mail</strong>: tarcisioquim@gmail.com</li>
-    
-     
+    <ul>
+
+    <li> <strong>Telefone</strong>: 16-996314645</li>
+    <li><strong>E-mail</strong>: tarcisioquim@gmail.com</li>        
     </ul>
 
-    <div>
+       <h3> Acompanhe meus projetos! </h3>
 
-    <h3> Acompanhe meus projetos! </h3>
-
-        
-        <a href="https://www.linkedin.com/in/tarc%C3%ADsio-menezes/" target="_blanck"> Linkedin </a>
+        <p>        
+        <a class="link" href="https://www.linkedin.com/in/tarc%C3%ADsio-menezes/" target="_blanck"> Linkedin </a>
 
         <br>
 
-        <a href="https://github.com/Tarcisio-Menezes" target="_blanck"> GitHub </a>
+        <a class="link" href="https://github.com/Tarcisio-Menezes" target="_blanck"> GitHub </a>
 
-        <br> <br> 
+        <br>
 
-        <img src="images/nuvem.gif" width="100px">
+        </p>
 
-        
-    </div>
+        <img id="nuvem_voadora" src="images/nuvem.gif" width="150px">
+
+        </div>
 
 
 </body>

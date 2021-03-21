@@ -1,0 +1,118 @@
+    
+    body { font-family: Lora, monospace; font-size: 16px; font-weight: 600; background-image: url("images/foto_capa.jpg"); background-size: cover; color:#14213d;
+    text-align: justify; margin-right: 10%; margin-left: 10%;} 
+
+    .hero_title { font-family: Roboto Slab; font-size: 25px; font-weight: 800; text-align: left; color: #022b3a; margin-top: 5%;}
+
+    .hero_title h1 {
+        text-align: center;
+    }
+
+    .bio h2{
+        text-align: left;
+        font-size: 25px;
+         }
+    
+    h3 {color: #022b3a;}
+
+    .button { display:inline-block; background-color:rgba(219, 212, 212, 0.448); color: #283d3b; border-radius: 25px;
+            margin: 20px; padding: 20px 30px; font-weight: bolder; text-decoration: none; color: inherit; font-size: 20px;}
+
+    
+   .button:hover {
+    font-size: 25px;
+    font-weight: bold;
+    color: steelblue;
+    border-style: solid;
+    border-color: whitesmoke;
+   }
+
+   .button:active {
+    color: tomato;
+    text-transform: uppercase;
+   }
+
+   #foto_tarcisio {
+    border-radius: 15%;
+    position: absolute;
+    left: 50px;
+    padding: 5px 5px 5px 5px;
+    background-color:white;
+   }
+       
+    .menu {
+        float: center;
+        margin-left: 25%;
+        
+    }
+    
+    .bio {
+        
+        margin-left: 25%;
+        font-size: 20px;
+        background-color:rgba(219, 212, 212, 0.752) ;
+        padding: 0px 25px 10px 25px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: whitesmoke; 
+              
+    }
+
+   .link:hover { 
+    color: royalblue;
+    font-size: 25px;  }
+
+    .link:active {
+        color:tomato;
+        text-transform: uppercase;
+    }
+
+    .soft_skills {
+
+        margin-left: 5%;
+        margin-top: 5%;
+        font-size: 20px;
+        background-color:rgba(219, 212, 212, 0.752) ;
+        padding: 0px 25px 10px 25px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: whitesmoke;
+
+    }       
+
+    .hard_skills {
+
+        margin-left: 5%;
+        margin-top: 5%;
+        font-size: 20px;
+        background-color:rgba(219, 212, 212, 0.752) ;
+        padding: 0px 25px 10px 25px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: whitesmoke;
+
+    }
+
+    .contact {
+
+        margin-left: 5%;
+        margin-top: 5%;
+        font-size: 20px;
+        background-color:rgba(219, 212, 212, 0.752) ;
+        padding: 0px 25px 10px 25px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: royalblue;
+        text-align: center;
+
+       }
+       
+       .soft_skills ol li:nth-last-child(2n) {
+            
+        font-style: italic;
+       }
+       
+    
+     
+     
+
